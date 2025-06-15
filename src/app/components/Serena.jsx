@@ -51,7 +51,7 @@ export default function HomePage() {
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center">
           <div className="bg-white text-black rounded-lg p-6 max-w-md text-center shadow-lg relative">
             <div className="absolute top-0 left-0 h-1 bg-blue-500 transition-all duration-100" style={{ width: `${progress}%` }}></div>
-            <h3 className="text-xl font-semibold mb-2">Welcome to Dr. Blake's site!</h3>
+            <h3 className="text-xl font-semibold mb-2">Welcome to Dr. Blake&apos;s site!</h3>
             <p className="mb-4">Feel free to explore and learn more about our services.</p>
             <button
               onClick={() => setShowPopup(false)}
