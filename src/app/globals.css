@@ -67,89 +67,20 @@
   }
 
   
-    body {
-      background-color: whitesmoke;
-    }
-
-    .loading::before{
-    content: '';
-    display: inline-block;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    border: 3px solid rgb(109, 239, 109);
-    border-right-color: #fff;
-    animation: rotate 2s linear infinite;
-  }
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg);
-    }
-    to{
-      transform: rotate(360deg);
-    }
+      body{
+    background-color: #282c30;
     
   }
-  .load::before{
-    content: '';
-    display: inline-block;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    border: 3px solid rgb(109, 239, 109);
-    border-right-color: black;
-    animation: rotate 2s linear infinite;
+  .bg-back{
+    background-image: url('/src/app/image/counselling.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    padding-top: 20px;
   }
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg);
-    }
-    to{
-      transform: rotate(360deg);
-    }
-    
+  .bg-trans{
+    background-color: rgb(0, 0, 0, 0.2);
   }
-
-@media (min-width: 378px) {
-  .width-chat{
-    width: 300px;
-  }
-}
-@media (min-width: 768px) {
-  .width-chat{
-    width: 600px;
-  }
-}
-
-.bg-color{
-
-  background-color: rgb(245, 159, 22);
-}
-.bg-product{
-  background-color: rgb(0, 0, 0, 0.2);
-}
-:disabled{
-  background-color: rgb(210, 210, 210);
-  border: none;
-  color: black;
-}
-
-.loading::before{
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 3px solid gray;
-    border-right-color: blue;
-    animation: rotate 2s linear infinite;
-  }
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg);
-    }
-    to{
-      transform: rotate(360deg);
-    }
-    
+  :disabled{
+    background-color: rgb(232, 232, 232);
   }

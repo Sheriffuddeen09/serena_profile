@@ -3,8 +3,8 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'geer-intern-assignment-backend.onrender.com',
+        protocol: 'http',
+        hostname: 'localhost:5000',
         pathname: '/uploads/**',
       },
     ],
