@@ -117,12 +117,14 @@ export default function Contact() {
             (323) 555-0192 <br/> <a className="text-blue-800" href="mailto:serena@blakepsychology.com">serena@blakepsychology.com</a>
           </p>
         </div>
+        <div>
           {showMessage && (
             <div className="bg-green-600 text-white rounded-lg font-semibold text-xs p-2 fixed top-2 mx-auto
                  w-64  mt-0  text-center">
               Message sent successfully!
             </div>
           )}
+        </div>
 {/* Loading reCAPTCHA... */}
     <div>
           <form onSubmit={handleSub} className="bg-white border-2 border border-gray-700 flex-col flex shadow rounded-md px-6 py-3 space-y-4">
@@ -180,7 +182,7 @@ export default function Contact() {
                 <p className="bg-green-600 text-white rounded-lg font-semibold text-xs p-2 fixed top-2 mx-auto
                  w-64  mt-0  text-center ">{showMessage}</p>
             </div>
-          <div className={` flex justify-center items-center ${error ? 'block' : 'hidden'}`}>
+          <div className={` flex justify-center items-center fixed top-2 ${error ? 'block' : 'hidden'}`}>
                 <p className="bg-red-600 text-white rounded-lg flex justify-center items-center font-semibold text-xs p-2 fixed top-2 mx-auto
                  w-64  mt-0  text-center ">{error}</p>
             </div>
