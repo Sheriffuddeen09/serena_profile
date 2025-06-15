@@ -150,7 +150,7 @@ export default function Contact() {
             <div className='flex flex-col'>
               <label className='mb-1 -mt-2 text-sm'>Preferred Contact Time</label>
             <input name="time" value={formData.time} onChange={handleChange} placeholder="e.g Mornings, Afternoons, Evenings, Weekends" className="sm:w-96 w-72 border-gray-600 border-2 border p-2 rounded-lg text-sm  text-black dark:bg-gray-100" required />
-            <p className='text-xs font-semibold'>Let us know when you're typically available for a call or consultation</p>
+            <p className='text-xs font-semibold'>Let us know when you&apos;re typically available for a call or consultation</p>
             </div>
             <div className='flex flex-col'>
               <label className='mb-1 -mt-2 text-sm'>Preferred Contact Time</label>
@@ -168,7 +168,7 @@ export default function Contact() {
             </div>
             <label className="flex items-center space-x-2">
               <input type="checkbox" name="robot" onChange={handleChange} className="h-4 w-4" />
-              <span>I'm not a robot</span>
+              <span>I&apos;m not a robot</span>
             </label>
             <button type="submit" className="bg-green-900  text-white px-4 py-2 rounded-md"
             disabled={!formData.name || !formData.phone || !formData.type 

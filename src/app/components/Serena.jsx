@@ -66,7 +66,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section data-aos="zoom-out" className="bg-black bg-back text-white flex flex-col text-center lg:pb-20 md:pb-3 px-4">
             <p className='text-sm my-4'>Maplewood Drive office or connect virtually via Zoom</p>
-            <h3 className="text-2xl md:text-3xl font-bold mb-2">Welcome to Dr. Serena Blake's, Licensed Clinical PsyD !</h3>
+            <h3 className="text-2xl md:text-3xl font-bold mb-2">Welcome to Dr. Serena Blake&apos;s, Licensed Clinical PsyD !</h3>
         <h1 className="text-2xl md:text-3xl font-bold mb-4"> (Clinical Psychologist)</h1>
         <p className="font-semibold max-w-xl mt-1 mx-auto">Helping you overcome anxiety, strengthen relationships, and heal from trauma with compassionate care.</p>
         <div className="font-semibold inline-flex gap-1 my-4 items-center text-sm mx-auto">
