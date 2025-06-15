@@ -3,8 +3,8 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'http',
-        hostname: 'localhost:5000',
+        protocol: 'https',
+        hostname: 'https://backend-contact-ku2s.onrender.com',
         pathname: '/uploads/**',
       },
     ],

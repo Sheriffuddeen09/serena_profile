@@ -3,14 +3,11 @@ import Service from '../components/Service'
 import About from '../components/About'
 import MapFaq from '../components/MapFaq'
 import Contact from '../components/Contact'
-//import Count from '../components/Count';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 
 export default function HomePage() {
-  const [form, setForm] = useState({ name: '', email: '', message: '', robot: false });
-  const [showMessage, setShowMessage] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
   const [progress, setProgress] = useState(100);
 
@@ -50,7 +47,7 @@ export default function HomePage() {
     <main className={`bg-white text-black font-sans min-h-screen transition-colors duration-300`}>
       
 
-      {/* {showPopup && (
+      {showPopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center">
           <div className="bg-white text-black rounded-lg p-6 max-w-md text-center shadow-lg relative">
             <div className="absolute top-0 left-0 h-1 bg-blue-500 transition-all duration-100" style={{ width: `${progress}%` }}></div>
@@ -64,7 +61,7 @@ export default function HomePage() {
             </button>
           </div>
         </div>
-      )} */}
+      )}
 
       {/* Hero Section */}
       <section data-aos="zoom-out" className="bg-black bg-back text-white flex flex-col text-center lg:pb-20 md:pb-3 px-4">
@@ -88,10 +85,6 @@ export default function HomePage() {
         </svg>
         Start Diagonis Today</button>
       </section>
-
-        {/* Count Reading */}
-
-        {/* <Count /> */}
 
       {/* About Section */}
 

@@ -48,7 +48,7 @@ export default function Contact() {
 
   try {
     const response = await axios.post(
-      "http://localhost:5000/api/product",
+      "https://backend-contact-ku2s.onrender.com/api/product",
       {
         name: formData.name,
         email: formData.email,
